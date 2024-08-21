@@ -8,19 +8,63 @@
 <body>
   <h1>Formularios en HTML</h1>  
   <form>
-    <input type="text" id="nombre" name="nombre" required="true">
-    <br>
-    <input type="submit" value="Enviar"/>
-    <br>
+    <fieldset>
+      <legend>Datos de la persona:</legend>
     <label>Nombre:</label>
+    <br/>
     <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true">:
     <br>
-    <input type="submit" value="Enviar"/>
-    <br>
     <label>Apellido:</label>
+    <br/>
     <input type="text" id="Apellido" placeholder="Escribe tu apellido" required="true">:
+    <br/>
+    <label>Edad:</label>
+    <br/>
+    <input type="number" id="Edad" name="Edad" required="true"/>
     <br>
+    <label>Email:</label>
+    <br/>
+    <input type="Email" id="Email" name="Email" required="true"/>
+    <br/>
+    <label>Password:</label>
+    <br/>
+    <input type="password" id="password" name="password" required="true"/>
+    <br/>
+    <label>Ocupación</label>
+  </br>
+    <input type="radio" id="estudiante" name="ocupacion" value="estudiante"/>
+    <label>Estudiante</label>
+    <br/>
+    <input type="radio" id="docente" name="ocupacion" value="docente"/>
+    <label>Docente</label>
+    <br/>
+    <label>Géneros de música favoritos</label>
+    <br/>
+    <input type="checkbox" id="clasica" name="musica" value="clasica" />
+    <label>Clásica</label>
+    <input type="checkbox" id="jazz" name="musica" value="jazz" />
+    <label>Jazz</label>
+    <input type="checkbox" id="trap" name="musica" value="trap" />
+    <label>Trap</label>
+    <input type="checkbox" id="cumbia" name="musica" value="cumbia" />
+    <label>Cumbia</label>
+    <br/>
+    <label>Marca de auto favorita</label>
+    <br/>
+    <select id="autos" name="autos" multiple="true">
+     <option value="Audi">Audi</option>
+     <option value="Renault">Renault</option>
+     <option value="Ferrari">Ferrari</option>
+     <br/>
+    </select>
+    <br/>
+    <label>Comentarios</label>
+    <br/>
+    <textarea id="comentario" name="comentario" rows="2" cols="30"></textarea>
+    <br/>
     <input type="submit" value="Enviar"/>
+    <input type="reset" value="Restablecer valores">
+    </fieldset>
     
   </form>
 </body>
