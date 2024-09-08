@@ -1,14 +1,20 @@
 h1{
     text-align: center;
-    color: #e63946;
+    color: #ef476f ;
+    background-color: beige;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 3px;
 } 
 .caja{
-    padding: 10px;
-    width: 100px ; 
-    height: 50px;
-    text-align: center;
-    font-size: 10px;
-    float: left;
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+
 }
 .rojo{
     background-color: crimson;
@@ -38,4 +44,10 @@ h1{
 }
 *{
     background-color: dimgray;
+}
+
+.justificar{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2;
 }
