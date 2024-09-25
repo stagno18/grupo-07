@@ -4,7 +4,7 @@ h1{
 }
 header{
     background:black;
-    width: 105%;
+    width: 102.6%;
 }
 nav{
    text-align: center;
@@ -27,7 +27,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li:hover{
-    background: #eca023;
+    background: #0059ff;
 }
 #contenedor {
     display: flex;
@@ -52,7 +52,15 @@ nav ul li:hover{
     text-align: justify;
 }
 .column {
-    flex: 1; /* O puedes usar un ancho específico */
-    margin: 10px; /* Espacio entre columnas */
-    padding: 20px; /* Espacio interno */
+    flex: 1; 
+    margin: 10px;
+    padding: 20px; 
+}
+.c11{
+    position:sticky;
+    top: 0px;
+}
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }

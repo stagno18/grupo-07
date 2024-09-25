@@ -1,0 +1,50 @@
+.contacto {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 450px;
+}
+
+.contacto form label, .contacto form input, .contacto form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.contacto form input, .contacto form textarea {
+    padding: 5px;
+    background: #222;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #0059ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0059ff;
+}
+
+*{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

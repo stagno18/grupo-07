@@ -1,0 +1,43 @@
+table, th, td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+td{
+    text-align: center;
+}
+h1{
+text-align: center;
+text-shadow: 2px 2px 2px #830370ec;
+ }
+ header{
+    background:black;
+    width: 100%;
+}
+nav{
+   text-align: center;
+   background: black;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+
+}
+nav ul  li{
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+nav ul li a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #0059ff;
+}
+.c11{
+    position: sticky;
+    top: 0px;
+}
